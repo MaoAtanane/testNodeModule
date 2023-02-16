@@ -2,7 +2,8 @@
   "name": "commonsnodemodule",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
@@ -42,6 +43,6 @@
     "react-dom": "^16.14.0"
   },
   "dependencies": {
-    "rollup-plugin-scss": "^4.0.0"
+
   }
 }
